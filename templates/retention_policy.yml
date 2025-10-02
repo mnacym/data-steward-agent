@@ -1,2 +1,21 @@
+# Data Retention Policy Template
+
 user_data:
-  retention_period: 90 days
+  retention_period: account lifetime + 90 days
+  deletion_trigger: account deletion or user request
+  cascade_deletion: YES
+
+audit_logs:
+  retention_period: 7 years
+  deletion_trigger: expiration only
+  immutable: YES
+
+session_data:
+  retention_period: 30 days
+  deletion_trigger: session expiry or logout
+  cascade_deletion: YES
+
+payments:
+  retention_period: 7 years (financial compliance)
+  deletion_trigger: expiration only
+  cascade_deletion: NO
