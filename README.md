@@ -82,6 +82,11 @@ If you need help with:
 
 ---
 
+For important notices, see the Disclaimer:
+https://github.com/skylark118/enterprise-data-steward-agent/blob/main/DISCLAIMER.md
+
+---
+
 ## License
 Apache 2.0 — free to use and adapt with attribution.  
 
