@@ -1,12 +1,16 @@
 # Enterprise Data Steward Agent (Universal for SaaS)
 
+![CI](https://github.com/skylark118/enterprise-data-steward-agent/actions/workflows/ci.yml/badge.svg)
+![License: Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
+![Version](https://img.shields.io/badge/version-3.0-blue)
+
 **Version 3.0 — October 2025**  
 *Framework: Production-Scale Data Stewardship Standards*  
 Maintained by [Skylark 118 LLC](https://skylark118.com)
 
 ---
 
-## 🚀 Overview
+## Overview
 The **Enterprise Data Steward Agent** is a **universal AI-assisted governance framework** for SaaS products.  
 It enforces **data quality, privacy compliance, security, architecture validation, and disaster recovery standards** at production scale.
 
@@ -15,7 +19,7 @@ It’s a **blocking governance agent**: no feature passes unless data governance
 
 ---
 
-## 📊 Data Steward Agent — 5 Levels
+## Data Steward Agent — 5 Levels
 
 ```mermaid
 graph TD
@@ -33,7 +37,7 @@ graph TD
 
 ---
 
-## 📂 Repo Contents
+## Repo Contents
 
 - **`agents/`**
   - `enterprise-data-steward-agent.md` → Full universal agent prompt (production-ready)
@@ -51,7 +55,7 @@ graph TD
 
 ---
 
-## 🛠️ Usage
+## Usage
 
 1. Copy the **agent prompt** into your project documentation.  
 2. Customize placeholders:
@@ -62,7 +66,7 @@ graph TD
 
 ---
 
-## 💡 Why This Matters
+## Why This Matters
 Every SaaS product eventually faces **data governance failures**:  
 - Bad data quality → broken reporting  
 - Missing privacy controls → regulatory fines  
@@ -72,7 +76,7 @@ This framework ensures **enterprise-grade resilience** from the start.
 
 ---
 
-## 🤝 Consulting & Advisory
+## Consulting & Advisory
 This repo is open-source — but wiring governance into real SaaS products takes expertise.  
 
 If you need help with:  
@@ -85,8 +89,8 @@ If you need help with:
 
 ---
 
-## 📜 License
+## License
 Apache 2.0 — free to use and adapt with attribution.  
 
-## 🙌 Contributions
+## Contributions
 Contributions welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).  
