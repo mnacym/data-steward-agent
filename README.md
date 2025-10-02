@@ -1,2 +1,3 @@
-# enterprise-data-steward-agent
-Universal Data Steward Agent for SaaS — production-scale data governance framework (quality, privacy, security, DR, audit).
+# Enterprise Data Steward Agent (SaaS)
+
+Universal framework for production-scale data governance.
