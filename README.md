@@ -78,7 +78,7 @@ If you need help with:
 - Preparing for **GDPR / CCPA / HIPAA / PCI audits**  
 - Building **AI-enabled compliance workflows**  
 
-👉 Reach out to **Skylark 118**: [skylark118.com](https://skylark118.com)  
+👉 Reach out to **Skylark 118**: [skylark118.com](https://www.skylark118.com)  
 
 ---
 
