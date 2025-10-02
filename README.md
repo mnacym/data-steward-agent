@@ -1,8 +1,13 @@
 # Enterprise Data Steward Agent (Universal for SaaS)
 
-![CI](https://github.com/skylark118/enterprise-data-steward-agent/actions/workflows/ci.yml/badge.svg)
+![CI](https://img.shields.io/github/actions/workflow/status/skylark118/enterprise-data-steward-agent/ci.yml?branch=main)
 ![License: Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
 ![Version](https://img.shields.io/badge/version-3.0-blue)
+![Last Commit](https://img.shields.io/github/last-commit/skylark118/enterprise-data-steward-agent)
+![Open Issues](https://img.shields.io/github/issues/skylark118/enterprise-data-steward-agent)
+![Top Language](https://img.shields.io/github/languages/top/skylark118/enterprise-data-steward-agent)
+![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue)
+![Made with Node.js](https://img.shields.io/badge/Made%20with-Node.js-green)
 
 **Version 3.0 — October 2025**  
 *Framework: Production-Scale Data Stewardship Standards*  
