@@ -1,4 +1,4 @@
-# Core Data Steward Agent for SaaS Products
+# Data Steward Agent for SaaS Products
 
 **Essential Data Governance Framework**
 *Version 1.0 - October 2025*
