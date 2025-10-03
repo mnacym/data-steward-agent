@@ -1,0 +1,126 @@
+## 📄 templates/pii-inventory.yml
+```yaml
+# PII Inventory Template
+# Document all personal data your product collects
+
+product_name: [Your Product Name]
+last_updated: [Date]
+owner: [Data Steward Name/Email]
+
+# Define your data classification levels
+classification_levels:
+  public: Data safe for public disclosure
+  internal: Data for internal use only
+  sensitive: Personal data requiring protection (PII)
+
+# List all tables containing personal data
+tables:
+  
+  users:
+    description: User account information
+    classification: sensitive
+    fields:
+      - name: email
+        type: string
+        classification: sensitive
+        is_pii: yes
+        legal_basis: contract  # contract | consent | legitimate_interest | legal_obligation
+        purpose: Account creation and authentication
+        retention_period: Account lifetime + 30 days post-deletion
+        required: yes
+        
+      - name: name
+        type: string
+        classification: sensitive
+        is_pii: yes
+        legal_basis: contract
+        purpose: Personalization and account identification
+        retention_period: Account lifetime + 30 days post-deletion
+        required: yes
+        
+      - name: phone
+        type: string
+        classification: sensitive
+        is_pii: yes
+        legal_basis: consent
+        purpose: Optional contact method for notifications
+        retention_period: Until user removes or account deleted
+        required: no
+        
+      - name: created_at
+        type: timestamp
+        classification: internal
+        is_pii: no
+        legal_basis: legitimate_interest
+        purpose: Service analytics and user activity tracking
+        retention_period: Account lifetime
+        required: yes
+
+  # Add your other tables here following the same pattern
+  [your_table]:
+    description: [What this table stores]
+    classification: [public | internal | sensitive]
+    fields:
+      - name: [field_name]
+        type: [data_type]
+        classification: [public | internal | sensitive]
+        is_pii: [yes | no]
+        legal_basis: [contract | consent | legitimate_interest | legal_obligation]
+        purpose: [Why you collect this]
+        retention_period: [How long you keep it]
+        required: [yes | no]
+
+# Data Subject Rights Implementation
+data_subject_rights:
+  right_to_access:
+    implemented: [yes | no]
+    method: [API endpoint | support request | self-service dashboard]
+    sla: [X business days]
+    
+  right_to_deletion:
+    implemented: [yes | no]
+    method: [Automated | manual support process]
+    sla: [X business days]
+    test_last_run: [Date]
+    test_passed: [yes | no]
+    
+  right_to_portability:
+    implemented: [yes | no]
+    format: [JSON | CSV | PDF]
+    method: [Download link | email delivery]
+    sla: [X business days]
+
+# Cross-border Data Transfers
+data_transfers:
+  primary_region: [US | EU | APAC]
+  transfers_to:
+    - region: [Region name]
+      legal_mechanism: [Standard Contractual Clauses | Adequacy Decision | etc.]
+      purpose: [Why data is transferred]
+
+# Third-party Data Processors
+data_processors:
+  - name: [Processor name]
+    purpose: [What they process]
+    data_shared: [Which fields]
+    dpa_signed: [yes | no]
+    dpa_date: [Date]
+    region: [Where they process data]
+
+# Compliance Status
+compliance:
+  gdpr:
+    applicable: [yes | no]
+    compliant: [yes | no | partial]
+    last_assessment: [Date]
+    
+  ccpa:
+    applicable: [yes | no]
+    compliant: [yes | no | partial]
+    last_assessment: [Date]
+    
+  industry_specific:
+    regulation: [HIPAA | PCI-DSS | SOX | None]
+    applicable: [yes | no]
+    compliant: [yes | no | partial]
+    last_assessment: [Date]
