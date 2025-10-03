@@ -26,3 +26,8 @@ Brief description of what's changing in 1-2 sentences.
 ```sql
 ALTER TABLE table_name 
 ADD COLUMN new_column VARCHAR(255) NOT NULL DEFAULT 'value';
+```
+
+Modifying Columns
+ALTER TABLE table_name 
+ALTER COLUMN existing_column TYPE TEXT;
