@@ -1,6 +1,6 @@
 # Implementation Guide
 
-4-week plan to implement the Core Data Steward framework in your SaaS product.
+4-week plan to implement the Data Steward framework in your SaaS product.
 
 ---
 
