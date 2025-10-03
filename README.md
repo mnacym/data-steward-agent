@@ -1,4 +1,4 @@
-# Core Data Steward Agent for SaaS Products
+# Data Steward Agent for SaaS Products
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Version](https://img.shields.io/badge/version-1.0-blue)
@@ -12,7 +12,7 @@ By [Skylark 118 LLC](https://skylark118.com)
 
 ## Overview
 
-The **Core Data Steward Agent** is an essential data governance framework for SaaS products - focused on what actually matters.
+The **Data Steward Agent** is an essential data governance framework for SaaS products - focused on what actually matters.
 
 Most data governance frameworks are either too enterprise (500-page compliance manuals) or too vague (generic checklists). This framework gives you the **essential 20% that delivers 80% of the value**.
 
